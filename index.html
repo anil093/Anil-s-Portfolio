@@ -7,13 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+  integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+  crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top  bg-dark">
-                <a class="navbar-brand" href="#">Portfolio</a>
+                <a class="navbar-brand animated tada js-anchor-link " href="#aboutme">Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -21,18 +26,18 @@
                 <div class="collapse navbar-collapse" "fixed-top" id="navbarColor03">
                   <ul class="navbar-nav mr-auto">
                    
-                    <li class="nav-item">
-                      <a class="nav-link" href="#projects">Projects</a>
+                    <li class="nav-item animated bounceInLeft">
+                      <a  class="nav-link  js-anchor-link" href="#projects">Projects</a>
                     </li>
-                    <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
+                    <li class="nav-item animated bounceInLeft">
+                        <a  class="nav-link js-anchor-link" href="#skills">Skills</a>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
+                    <li class="nav-item animated bounceInLeft">
+                      <a class="nav-link js-anchor-link" href="#contact">Contact</a>
                     </li>
                     
-                    <li class="nav-item">
-                      <a class="nav-link" href="#social">Social</a>
+                    <li class="nav-item animated bounceInLeft">
+                      <a class="nav-link js-anchor-link" href="#social">Social</a>
                     </li>
                    
                   </ul>
@@ -42,12 +47,12 @@
             </nav>
             
               <div class="jumbotron text-center heading">
-                    <h1 class="display-3">I'm Anil kumar</h1>
-                    <p class="lead">25 years Old Young Enthusiastic and Music Lover Full Stack Developer, Living in Toronto, CA.</p>
+                    <h1 class="display-3 animated rollIn">I'm Anil kumar</h1>
+                    <p class="lead">25 years Old Young Enthusiastic Fun Living and Music Lover Full Stack Developer, Living in Toronto, CA.</p>
                     <hr class="my-4">
                     <p></p>
                     <p class="lead">
-                      <a class="btn btn-primary btn-lg" href="#aboutme" role="button">Learn more</a>
+                      <a id= "grab" class="btn btn-primary btn-lg" href="#aboutme" role="button">Learn more</a>
                     </p>
                     <!--<img src="https://bradmangas.com/wp-content/uploads/2012/01/FHWI_8248_1600px.jpg" class="img-fluid" alt="Responsive image" width="1519px" heigth="705px"> -->
               </div>
@@ -58,8 +63,10 @@
                   <section id="aboutme">
                         <div class="about jumbotron text-center">
                         <h1 class="display-3">About me</h1>
-                        <p class="well">I am a Software designer and Database administrator with 3 long periods of scholastic experience having some expertise in programming Development and the techniques related with the procedure, 
-                          <br> web Development and Database organization. . I have a Bachelors of computer applications from Panjab University, India. Right now, I am enlisted in the Web Development coding bootcamp at University of Toronto . 
+                        <img src="https://pbs.twimg.com/profile_images/1007776105464393729/tPnD7IhM_400x400.jpg" class="fluid">
+                        
+                        <p id="text" class="well"><br>I am a Software designer and Database administrator with 3 long periods of scholastic experience having some expertise in programming Development and the techniques related with the procedure, 
+                          <br> web Development and Dgit atabase organization. . I have a Bachelors of computer applications from Panjab University, India. Right now, I am enlisted in the Web Development coding bootcamp at University of Toronto . 
                            <br>Graduated in Graduate Certificate which is Information Technology Solutions at Humber College spend significant time in Database Development , administration and web Development . 
                            <br>A portion of the key specialized abilities I incorporate C/C++, Java, HTML, Javascript, jQuery, Ajax,API ,SQL and Node.js. Capability in various working frameworks (Windows XP/7/10 and Mobile stages – principally (iOS 
                            <br>and Android) and IDEs (to be specific Eclipse, Netbeans and SQL Developer). Extra aptitudes incorporate basic reasoning, critical thinking, client administration and cooperative person. 
@@ -74,19 +81,19 @@
                                 <h1 class="display-3">Projects</h1>
                                <h5> <p class="adjust">Guess Game</p></h5> 
                             <a href="https://github.com/anil093/Hangman-Game"><button type="button" class="btn btn-secondary">View Code</button></a>
-                          <a href="https://anil093.github.io/Hangman-Game/assets/javascript/index.html"  ><button type="button" class="btn btn-secondary">Play Game</button></a>
+                          <a href="https://anil093.github.io/Hangman-Game/assets/javascript/index.html"  ><button type="button" class=" btn btn-secondary">Play Game</button></a>
                               
                           <h5><p class="adjust"> Bookmark Application</p></h5>
                           <a href="https://github.com/anil093/BookMark-Application-"><button type="button" href=""class="btn btn-secondary">View Code</button> </a>
-                          <a href="https://anil093.github.io/BookMark-Application-/" ><button type="button" class="btn btn-secondary">BookMarks</button></a>
+                          <a href="https://anil093.github.io/BookMark-Application-/" ><button type="button" class=" btn btn-secondary">BookMarks</button></a>
                                
                         <h5><p class="adjust">Face Battle</p></h5>
-                       <a href="https://github.com/mliu0506/group-project-1"><button type="button"class="btn btn-secondary">View Code</button></a>
-                       <a href="https://mliu0506.github.io/group-project-1/"><button type="button" class="btn btn-secondary">Play Game</button></a>
+                       <a href="https://github.com/mliu0506/group-project-1"><button type="button"class=" btn btn-secondary">View Code</button></a>
+                       <a href="https://mliu0506.github.io/group-project-1/"><button type="button" class=" btn btn-secondary">Play Game</button></a>
                                     
-                        <h5>  <P class="adjust">Chat App</P></h5><button type="button" href="https://github.com/anil093/Hangman-Game"class="btn btn-secondary">View Code</button><button type="button" class="btn btn-secondary">Chats Now</button>
-                                        <h5> <p class="adjust">Calculator</p></h5><button type="button" href="https://github.com/anil093/Hangman-Game"class="btn btn-secondary">View Code</button><button type="button" class="btn btn-secondary">Calculator</button>
-                                            <h5>   <p class="adjust">New search time</p></h5><button type="button" href="https://github.com/anil093/Hangman-Game"class="btn btn-secondary">View Code</button><button type="button" class="btn btn-secondary">Search Article</button>
+                        <h5> <P class="adjust">Chat App</P></h5><button type="button" href="https://github.com/anil093/Hangman-Game"class="btn btn-secondary">View Code</button><button type="button" class="btn btn-secondary">Chats Now</button>
+                        <h5> <p class="adjust">Calculator</p></h5><button type="button" href="https://github.com/anil093/Hangman-Game"class=" btn btn-secondary">View Code</button><button type="button" class="btn btn-secondary">Calculator</button>
+                        <h5>  <p class="adjust">New search time</p></h5><button type="button" href="https://github.com/anil093/Hangman-Game"class=" btn btn-secondary">View Code</button><button type="button" class="btn btn-secondary">Search Article</button>
                         </div>        
                       
                   </section>
@@ -190,7 +197,11 @@
                    </div>   
                    </section> 
 
+                   
+
                    <!-- contact-->  
+                   <br>
+                   <br>
                    <div class ="container">
                   <section id="contact">   
                    <div class="about jumbotron text-center">
@@ -221,5 +232,24 @@
                     </footer>
 </body>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script>
+  $("#grab").on("click", function(){
+       $("#text").addClass("animated lightSpeedIn");
+  })
+
+  $('.js-anchor-link').click(function(e){
+  e.preventDefault();
+  var target = $($(this).attr('href'));
+  if(target.length){
+    var scrollTo = target.offset().top;
+    $('body, html').animate({scrollTop: scrollTo+'px'}, 800);
+  }
+});
+
+
+</script>
 </html>

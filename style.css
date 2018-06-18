@@ -88,6 +88,21 @@ flex-wrapper {
       height:500px;
       margin:100px;
   }
+#text{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.lead{
+  font-family: 'Marck Script', cursive;
+}
+h1{
+  font-family: 'Covered By Your Grace', cursive;
+}
+p{
+  font-family: 'Marck Script', cursive;
+}
+img{
+  border-radius: 50%;
+}
 
 
   
