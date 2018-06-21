@@ -18,7 +18,7 @@
 
 <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top  bg-dark">
-                <a class="navbar-brand animated tada js-anchor-link " href="#aboutme">Portfolio</a>
+                <a id ="Portfolio" class="navbar-brand animated tada js-anchor-link " href="#aboutme">Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -92,14 +92,17 @@
                        <a href="https://github.com/mliu0506/group-project-1"><button type="button"class=" btn btn-secondary">View Code</button></a>
                        <a href="https://mliu0506.github.io/group-project-1/"><button type="button" class=" btn btn-secondary">Play Game</button></a>
                                     
-                        <h5> <P class="adjust">Computer Solution</P></h5><button type="button" href="https://github.com/anil093/Computer-solutions"class="btn btn-secondary">View Code</button>
-                        <button type="button" href="https://anil093.github.io/Computer-solutions/." class="btn btn-secondary">View</button>
+                        <h5><P class="adjust">Computer Solution</P></h5>
+                        <a href ="https://github.com/anil093/Computer-solutions"><button type="button"class="btn btn-secondary">View Code</button></a>
+                       <a href="https://anil093.github.io/Computer-solutions/."> <button type="button" class="btn btn-secondary">View</button></a>
                         
-                        <h5> <p class="adjust">Calculator</p></h5><button type="button" href="https://github.com/anil093/Computer-solutions"class=" btn btn-secondary">View Code</button>
-                        <button type="button" class="btn btn-secondary">Calculator</button>
+                        <h5> <p class="adjust">Calculator</p></h5>
+                       <a href ="https://github.com/anil093/Computer-solutions"><button type="button" class=" btn btn-secondary">View Code</button></a>
+                      <a href=""  ><button type="button" class="btn btn-secondary">Calculator</button></a>
                         
-                        <h5>  <p class="adjust">Hallowen Store</p></h5><button type="button" href="https://github.com/anil093/Hallowen-store"class=" btn btn-secondary">View Code</button>
-                        <button type="button" href="https://anil093.github.io/Hallowen-store/."class="btn btn-secondary">Check it out</button>
+                        <h5><p class="adjust">Hallowen Store</p></h5>
+                        <a href="https://github.com/anil093/Hallowen-store"><button type="button" class="btn btn-secondary">View Code</button></a>
+                       <a href="https://anil093.github.io/Hallowen-store/"> <button type="button" class="btn btn-secondary">Check it out</button></a>
                         
                         </div>        
                       
@@ -247,7 +250,12 @@
 <script>
   $("#grab").on("click", function(){
        $("#text").addClass("animated lightSpeedIn");
-  })
+  });
+
+  $("#Portfolio").on("click", function(){
+    $("#text").removeClass("animated lightSpeedIn")
+    $("#text").addClass("animated tada")
+  });
 
   $('.js-anchor-link').click(function(e){
   e.preventDefault();
