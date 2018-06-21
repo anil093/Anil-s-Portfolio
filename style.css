@@ -89,16 +89,16 @@ flex-wrapper {
       margin:100px;
   }
 #text{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 .lead{
-  font-family: 'Marck Script', cursive;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 h1{
-  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 p{
-  font-family: 'Marck Script', cursive;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 img{
   border-radius: 50%;
