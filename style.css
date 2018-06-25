@@ -1,18 +1,5 @@
 .head{
   background-image:url("http://backgroundcheckall.com/wp-content/uploads/2017/12/professional-portfolio-background-9.jpg");
-  height:800px;
-}
-.project{
-  height:800px;
-  padding: 100px;
-}
-#skills{
-  height:600px;
-  padding: 130px;
-  margin-bottom:152px;
-}
-#contact{
-  height:500px;
 }
 
 .nav-item {
