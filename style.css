@@ -107,6 +107,18 @@ p{
 img{
   border-radius: 50%;
 }
+.btn-lg{
+  margin-right:30px;
+}
+@media only screen and (max-width: 465px) {
+  .class{
+    font: 190px;
+  }
+}
+
+.heading{
+padding:140px;
+}
 
 
   
