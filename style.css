@@ -163,14 +163,15 @@ body {margin:0;height:2000px;}
   color: white;
 }
 
-.youtube {
-  background: #bb0000;
-  color: white;
-}
+
 
 .content {
   margin-left: 75px;
   font-size: 30px;
+}
+.form-control{
+  width: 500px;
+  margin-left: 280px;
 }
 
 
