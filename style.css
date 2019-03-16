@@ -187,7 +187,7 @@ body {
 }
 
 .content {
-  margin-left: 75px;
+
   font-size: 30px;
 }
 .form-control {
@@ -200,8 +200,8 @@ body {
   padding: 0 4px;
 }
 
-
-@charset "utf-8";
+/* 
+@charset "utf-8"; */
 /* CSS Document */
 
 /*
@@ -809,7 +809,7 @@ body {
 	.about-us .about-us-details ul li { float: left; }
 	.about-us .about-us-details ul li  p { font-size: 52px; font-style: italic; font-weight:lighter; color: #dddddd; text-align: left; line-height: 85px; }
 	.about-us .about-us-details ul li  p span  { font-size: 120px; position:relative; }
-	.about-us .about-us-details ul li  p span:after { position: absolute; content: ""; top: 18%; bottom: 0; right: -65%; left: 0;d isplay: block; height: 110px; width: 2px; background: #dddddd; margin: 0px auto; 
+	.about-us .about-us-details ul li  p span:after { position: absolute; content: ""; top: 18%; bottom: 0; right: -65%; left: 0; display: block; height: 110px; width: 2px; background: #dddddd; margin: 0px auto; 
 	transform: skew(-10deg); -webkit-transform: skew(-10deg); -o-transform: skew(-10deg); -moz-transform: skew(-10deg); -ms-transform: skew(-10deg); }
 	.about-us .about-us-details ul li  p i { font-size: 50px; vertical-align: top; margin-top: 12%; }	
 	
@@ -1448,7 +1448,7 @@ body {
     background-size: 100% 100%;
     width: 100%;
     height: 100vh;
-    /* opacity: 0.2; */
+    opacity: 1;
   }
   h2 {
     font-weight: 200;
